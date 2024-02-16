@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responsive{
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(300px,1fr)
+    );
+}
